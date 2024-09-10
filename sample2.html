@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+
+<script>
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"]; //Array
+let fruit=fruits[2];     //access an element
+let size = fruits.length; //length of the array
+
+
+
+document.getElementById("demo1").innerHTML = fruits;
+document.getElementById("demo2").innerHTML =size;
+document.getElementById("demo3").innerHTML =fruit;
+ document.getElementById("demo4").innerHTML = fruits.join(" * ");
+ document.getElementById("demo5").innerHTML =fruits.toString();
+ 
+
+</script>
+
+</body>
+</html>
